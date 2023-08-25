@@ -24,7 +24,7 @@ const Home = () => {
 
   const handleSelectRepo = () => {
     setAnchorEl(null);
-    navigate('/chat');
+    navigate('/ai-ui-template/chat');
   };
 
   useEffect(() => {

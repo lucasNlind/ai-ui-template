@@ -24,7 +24,7 @@ const Topbar = () => {
                 backgroundColor: theme.palette.background.paper,
             }}
         >
-            <Fab color='primary' size='small' onClick={() => navigate('/')}>
+            <Fab color='primary' size='small' onClick={() => navigate('/ai-ui-template')}>
                 <Typography variant='h6'>🚢</Typography>
             </Fab>
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
