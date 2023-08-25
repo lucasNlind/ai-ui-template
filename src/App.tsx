@@ -14,8 +14,8 @@ function App() {
       <CssBaseline />
       <Topbar />
       <Routes>
-        <Route path='/ai-ui-template/' element={<Home />}></Route>
-        <Route path='/ai-ui-template/chat' element={<Chat />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/chat' element={<Chat />}></Route>
       </Routes>
     </ThemeProvider>
   );

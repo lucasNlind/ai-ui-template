@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeContextProvider } from './theme/ThemeContextProvider';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <BrowserRouter>
+    <BrowserRouter basename='/ai-ui-template/'>
       <ThemeContextProvider>
         <App />
       </ThemeContextProvider>
