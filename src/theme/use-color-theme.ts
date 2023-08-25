@@ -4,7 +4,7 @@ import { ColorMode } from '../enums/color-mode.enum';
 import { createTheme, PaletteMode } from '@mui/material';
 
 export const useColorTheme = () => {
-  const [mode, setMode] = useState<PaletteMode>(ColorMode.LIGHT);
+  const [mode, setMode] = useState<PaletteMode>(ColorMode.DARK);
 
   const toggleColorMode = () => {
     setMode((prevMode) => (prevMode === ColorMode.LIGHT ? ColorMode.DARK : ColorMode.LIGHT));
