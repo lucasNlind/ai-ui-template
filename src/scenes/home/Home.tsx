@@ -1,5 +1,3 @@
-import '../../App.css';
-
 import GithubIcon from '@mui/icons-material/GitHub';
 
 import { useEffect, useState } from 'react';
